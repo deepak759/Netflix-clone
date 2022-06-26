@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="netflix.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="front">
+      <h1 class="logo">NETFLIX</h1>
+      <div class="signIn">
+        <button class="signup" onclick="mysigninform()">Sign In</button>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+          Language
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">ENGLISH</a>
+          <hr />
+          <a href="#">HINDI</a>
+        </div>
+      </div>
+    </div>
+    <div class="formcontainer">
+      <form action="submit">
+        <h2>Sign In</h2>
+        <div class="field1">
+          <input
+            type="email"
+            type="number"
+            placeholder="Enter Your Email or Phone Number"
+          />
+        </div>
+        <div class="field2">
+          <input type="password" placeholder="password" />
+        </div>
+        <div class="sign">
+          <button type="submit">Sign In</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="netflix.js"></script>
+  </body>
+</html>
